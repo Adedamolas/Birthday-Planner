@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "Macbook Pro",
+    "price": "Your kidney",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/de/Apple_MacBook_Pro_16%22_M2_Max_4.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Airpods",
+    "price": "#10,000",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/68/Apple_airpods_pro_case.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Sneakers",
+    "price": "20k",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Nike_Terminator.jpg"
+  }
+]

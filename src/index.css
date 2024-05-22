@@ -1,0 +1,108 @@
+:root {
+  line-height: 1.5;
+  font-family: 'Onest';
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  color: white;
+  /* background-color: #242424; */
+  background-image: url(../src/assets/images/bg-stars.svg);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+@font-face {
+  font-family: Onest;
+  src: url(../public/static/Onest-Regular.ttf);
+}
+@font-face {
+  font-family: OnestBold;
+  src: url(../public/static/Onest-ExtraBold.ttf);
+}
+body {
+  margin: 0;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: OnestBold;
+  margin: 0;
+}
+h2{
+  font-size: 2rem;
+  font-family: OnestBold;
+  margin: 0;
+}
+h3{
+  font-family: OnestBold;
+  margin: 0;
+}
+p{
+  font-family: OnestBold;
+  margin: 0;
+}
+button {
+  border-radius: 5rem;
+  border: 2px solid hsl(345, 95%, 68%);
+  padding: 0.6em 1.8em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: OnestBold;
+  background:transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: white;
+  color: hsl(345, 95%, 68%);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 2rem;
+  }
+  .watch div h1{
+    font-size: 3rem;
+  }
+  footer{
+    margin-top: 100px;
+  }
+}
